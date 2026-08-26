@@ -26,7 +26,7 @@ static void reset_passwd(pswd *passwd);
 static void denied_blink(void);
 static void success_blink(void);
 static void wrong_blink(void);
-void beep(gpio_num_t pin, uint32_t duration);
+static void beep(gpio_num_t pin, uint32_t duration);
 
 void app_main(void)
 {
@@ -154,7 +154,7 @@ static void wrong_blink(void)
     }
 }
 
-void beep(gpio_num_t pin, uint32_t duration)
+static void beep(gpio_num_t pin, uint32_t duration)
 {
     uint32_t cycles = (duration * 1000) / 500; 
     
