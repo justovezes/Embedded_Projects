@@ -6,9 +6,14 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
-typedef short button_input_t;
+// type for button input, it's binary since there's
+// only 2 possibilites.
+typedef char button_input_t;
+
+// special type for the password.
 typedef char pswd;
 
+// PIN NUMBERS
 #define BUZZER_PIN (gpio_num_t) 23
 #define GREEN_LED_PIN (gpio_num_t) 22
 #define YELLOW_LED_PIN (gpio_num_t) 21
@@ -73,6 +78,7 @@ void app_main(void)
     }
 }
 
+// RETURNS EITHER RED OR BLUE INPUT
 button_input_t get_button_input(void)
 {
     button_input_t inpt = -1;
@@ -117,7 +123,7 @@ static void reset_passwd(pswd *passwd)
     *passwd = 0;
     for (int i = 0; i < (int) sizeof(pswd) * 8; i++) {
         *passwd <<= 1;
-        *passwd += (int) get_button_input();
+        *passwd += (pswd) get_button_input();
     }
     gpio_set_level(RED_LED_PIN, 0);
 }
