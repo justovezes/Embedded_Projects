@@ -1,7 +1,7 @@
 # Simple Password Manager
 This is one of the first projects I have made while tinkering with the ESP32 board, it's very simple.
 
-There's only two buttons (I'm dealing with limited resources here so that had to do)
+There's only two buttons;
 
 Once booted, you are in "idle" mode, and you can enter the "Enter password" mode by pressing the blue button
 and the "Reset/Add Password" mode by pressing the red button.
