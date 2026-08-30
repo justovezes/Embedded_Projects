@@ -13,3 +13,6 @@ it's going to beep green lights.
 
 That's very much it, I hope to make more complicated and interesting projects with the
 ESP32 in the future but I knew I had to start small, thanks for your time reading.
+
+## Demo Video
+[![Password Manager](https://img.youtube.com/vi/HNpGGk5WKZ0/maxresdefault.jpg)](https://www.youtube.com/watch?v=HNpGGk5WKZ0)
