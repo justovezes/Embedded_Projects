@@ -9,3 +9,7 @@ SDD1306 driver, at https://github.com/nopnop2002/esp-idf-ssd1306 ("sdd1306.h")
 
 Umidity/Temp is read with DHT11, then output to SDD1306, and refreshed every 3 seconds.
 No AI was used in the code.
+
+## Demo Video
+[![DHT11 monitor](https://img.youtube.com/vi/ZF86Ly5fDy8/maxresdefault.jpg)](https://www.youtube.com/watch?v=ZF86Ly5fDy8)
+
