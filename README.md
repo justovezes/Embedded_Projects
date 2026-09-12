@@ -1,5 +1,5 @@
 #  embedded_projects
-Hello, I am "Justo". an aspiring Firmware Developer based in Brazil. 
+Hello, I am "Justo". An aspiring Firmware Developer based in Brazil. 
 This repo is aimed to share my practical projects, code, and experience with microcontrollers.
 
 ## Skills and Tools
