@@ -79,7 +79,7 @@ void app_main(void)
 }
 
 // RETURNS EITHER RED OR BLUE INPUT
-button_input_t get_button_input(void)
+static button_input_t get_button_input(void)
 {
     button_input_t inpt = -1;
     while (inpt == NIL_INPUT) {
