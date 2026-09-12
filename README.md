@@ -1,9 +1,21 @@
-# Embedded_Projects
+# Embedded Systems Portfolio
 
-## Password Manager
-### Demo Video
-[![Password Manager](https://img.youtube.com/vi/HNpGGk5WKZ0/maxresdefault.jpg)](https://www.youtube.com/watch?v=HNpGGk5WKZ0)
+## Hello!
 
-## DHT11 Monitor
-### Demo Video
-[![DHT11 monitor](https://img.youtube.com/vi/ZF86Ly5fDy8/maxresdefault.jpg)](https://www.youtube.com/watch?v=ZF86Ly5fDy8)
+I am "Justo". an aspiring Firmware Developer based in Brazil. 
+
+This repo is aimed to share my practical projects, code, and experience with microcontrollers.
+
+---
+
+## Skills and Tools
+
+* **Languages:** C (C99+)
+* **Microcontrollers:** ESP32
+* **Protocols:** UART, SPI, I2C.
+* **Tools & Environment:** Neovim, GCC, Linux.
+
+---
+
+## Projects
+
