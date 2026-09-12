@@ -149,6 +149,7 @@ static void success_blink(void)
         vTaskDelay(pdMS_TO_TICKS(250));
     }
 }
+
 static void wrong_blink(void)
 {
     for (int i = 0; i < 3; i++) {
