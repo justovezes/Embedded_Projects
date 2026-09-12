@@ -1,6 +1,4 @@
-# Embedded Systems Portfolio
-
-## Hello!
+# Hello!
 
 I am "Justo". an aspiring Firmware Developer based in Brazil. 
 
