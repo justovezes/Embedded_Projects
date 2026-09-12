@@ -59,7 +59,9 @@ void app_main(void)
     pswd passwd;
 
     while (true) {
-        {
+        
+        vTaskDelay(pdMS_TO_TICKS(50));
+        
         if (!get_button_input()) { // RED PRESSED
             reset_passwd(&passwd);
             has_passwd = true;
@@ -73,8 +75,6 @@ void app_main(void)
             success_blink(); // SUCCESS
         else
             wrong_blink();   // WRONG
-        }
-        vTaskDelay(pdMS_TO_TICKS(50));
     }
 }
 
